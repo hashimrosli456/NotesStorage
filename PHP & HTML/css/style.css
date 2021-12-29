@@ -1,0 +1,111 @@
+body{
+    height:60vh;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('images/huhu.jpg');
+    font-family: 'Aclonica';
+}
+
+.button
+{
+    background-color:   gainsboro ;
+    border: black;
+    color: black;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration:black;
+    display: inline-block;
+    font-size: 15px;
+    /* margin: 2px 1px; */
+    cursor: pointer;
+} 
+
+
+*{
+    margin: 0;
+    padding: 1%;
+}
+
+h2,p{
+    font-size: 1005;
+    font-weight: 100%;
+}
+
+ul,li{
+    list-style: none;
+}
+ul{
+    overflow-x:initial;
+    overflow-y: initial;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    background: lawngreen;
+    display:inline-block;
+    height: fit-content;
+    width: 10em;
+    padding:1em;
+    
+}
+
+ul li{
+    margin: 1em;
+    float: left;
+}
+
+
+.container{
+    width: 65vw;
+    box-shadow: 0 15px 35px rgba(24, 24, 214, 0.1);
+    padding: 2em;
+    background-color: lightgray;
+    border-radius: 20px;
+}
+
+.form-group{
+    margin-bottom: 1em;
+    transition:all .3s;
+
+}
+
+.form-label{
+    font-size: 1em;
+    color: rgb(12, 19, 15);
+    display: block;
+    opacity: 1;
+    transform: translateY(-3em);
+    transform-origin:0 0;
+    transition: all .3s;
+}
+
+.form-control{
+    box-shadow: none;
+    background-color: white;
+    border-radius: 0px;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    transition: all .3s;
+    padding: 3px;
+    
+}
+.form-control::placeholder{
+    color: transparent;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: orange;
+}
+
+
+.form-group:focus-within{
+    transform: scale(1.05,1.05);
+}
+
+ 
